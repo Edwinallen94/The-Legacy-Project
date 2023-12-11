@@ -1,5 +1,8 @@
 body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: black;
+  color: white;
 }
 
 /* .newwidth {
@@ -21,3 +24,106 @@ body {
   width: 100px;
   height: 50px;
 }
+
+/* p {
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  width: 80%;
+} */
+
+.container {
+  text-align: center;
+}
+.press {
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+}
+
+.rza {
+  text-align: center;
+}
+
+.tunde {
+  width: 350px;
+  margin: 160px;
+  margin-top: -180px;
+  position: static;
+  margin-left: 1%;
+}
+
+.about-text {
+  margin-top: -180px;
+}
+
+.container-sm {
+  margin-top: -150px;
+}
+.about {
+  width: 100%;
+  padding: 100px 0px;
+  /* background-color: #191919; */
+}
+
+.about img {
+  height: auto;
+  width: 430px;
+}
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 55px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: bisque;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+button {
+  background-color: burlywood;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid burlywood;
+  cursor: pointer;
+}
+
+/* .logo-instagram {
+  width: auto;
+  height: auto;
+} */
