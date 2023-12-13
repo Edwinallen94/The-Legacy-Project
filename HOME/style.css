@@ -18,6 +18,11 @@ body {
 #carouselSlides {
   margin: 160px;
   top: -140px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+.carousel-inner {
 }
 
 .logo {
