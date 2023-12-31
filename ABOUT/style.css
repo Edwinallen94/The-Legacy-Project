@@ -1,0 +1,49 @@
+.about {
+  width: 100%;
+  padding: 100px 0;
+  /* background-color: #191919; */
+}
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-item {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about img {
+  height: auto;
+  width: 430px;
+  margin-right: 20px;
+  margin-top: 10px; /* Adjust as needed to lower the image */
+}
+
+.descripton {
+  font-size: small;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.about-text h2 {
+  color: white;
+  font-size: 55px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+}
